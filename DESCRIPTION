@@ -1,10 +1,10 @@
 Package: FDZload
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Title: Downloading and importing data sets
+Version: 0.0.1
+Authors@R: c(
+    person("Annegret", "Rucker", "annegret.rucker@iqb.hu-berlin.de", role = c("aut", "cre"), comment = c(ORCID = "0009-0009-1753-8150")),
+    person("Benjamin", "Becker", "b.becker@iqb.hu-berlin.de", role = c("aut", "cre")))
+Description: Download and import data sets from the FDZ and OECD homepage in order to compare them.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8

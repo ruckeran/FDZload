@@ -2,8 +2,8 @@ Package: FDZload
 Title: Downloading and importing data sets
 Version: 0.0.1
 Authors@R: c(
-    person("Annegret", "Rucker", "annegret.rucker@iqb.hu-berlin.de", role = c("aut", "cre"), comment = c(ORCID = "0009-0009-1753-8150")),
-    person("Benjamin", "Becker", "b.becker@iqb.hu-berlin.de", role = c("aut", "cre")))
+    person("Annegret", "Rucker", email = "annegret.rucker@iqb.hu-berlin.de", role = c("aut", "cre")),
+    person("Benjamin", "Becker", email = "b.becker@iqb.hu-berlin.de", role = c("aut", "ctb")))
 Description: Download and import data sets from the FDZ and OECD homepage in order to compare them.
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -5,8 +5,7 @@ Authors@R: c(
     person("Annegret", "Rucker", "annegret.rucker@iqb.hu-berlin.de", role = c("aut", "cre"), comment = c(ORCID = "0009-0009-1753-8150")),
     person("Benjamin", "Becker", "b.becker@iqb.hu-berlin.de", role = c("aut", "cre")))
 Description: Download and import data sets from the FDZ and OECD homepage in order to compare them.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1

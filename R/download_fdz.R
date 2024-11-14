@@ -15,8 +15,8 @@
 #'                         data_type = "stud_quest")
 #'@export
 download_fdz <- function(study = c("PISA", "TIMSS", "IGLU", "ICILS", "TVD"),
-                         year = c("2019", "2018", "2015", "2013", "2012", "2011", "2009", "2007", "2006",
-                                  "2003", "2001", "2000"),
+                         year = c("2019", "2018", "2016", "2015", "2013", "2012", "2011", "2009", "2007", "2006",
+                                  "2003", "2001", "2000", NULL),
                          data_type = c("stud_dat", "stud_dat_9kl", "stud_dat_15j", "stud_par_dat",
                                        "stud_par_dat_9kl", "stud_par_dat_15j", "stud_nat_dat", "stud_int_dat",
                                        "teach_dat", "teach_stud_dat", "teach_dat_9kl", "teach_dat_15j",
@@ -153,7 +153,6 @@ download_fdz <- function(study = c("PISA", "TIMSS", "IGLU", "ICILS", "TVD"),
       )
     ),
     "TVD" = list(
-#      "2018" = list(
         stud_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_student_data.sav",
         teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Teacher_v1_L.sav",
         teach_log_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Teacher_Log_.sav",
@@ -163,9 +162,8 @@ download_fdz <- function(study = c("PISA", "TIMSS", "IGLU", "ICILS", "TVD"),
         video_teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_Aggreg_1.sav",
         video_third_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_Third_.sav",
         artefact = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Artefact_v1_.sav"
-#      )
+      )
     )
-  )
 
   # call up URL for specific combination
   if (study %in% names(download_paths) &&
@@ -176,7 +174,6 @@ download_fdz <- function(study = c("PISA", "TIMSS", "IGLU", "ICILS", "TVD"),
   } else {
     stop("The corresponding download has not been implemented yet.")
   }
-
 
   ### read data
   eatGADS::import_spss(download_path, checkVarNames = FALSE)

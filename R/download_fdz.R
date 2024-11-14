@@ -14,12 +14,20 @@
 #' fdz_pisa <- download_fdz(study = "PISA", year = "2015",
 #'                         data_type = "stud_quest")
 #'@export
-download_fdz <- function(study = c("PISA"),
-                         year = c("2018", "2015", "2012", "2009", "2006", "2003", "2000"),
-                         data_type = c("stud_dat_9kl", "stud_dat_15j", "stud_par_dat", "stud_par_dat_9kl",
-                                       "stud_par_dat_15j", "teach_dat", "teach_dat_9kl",
-                                       "teach_dat_15j", "school_dat", "school_dat_9kl", "school_dat_15j",
-                                       "par_dat_9kl", "par_dat_15j", "matching", "timing")) {
+download_fdz <- function(study = c("PISA", "TIMSS", "IGLU", "ICILS", "TVD"),
+                         year = c("2019", "2018", "2015", "2013", "2012", "2011", "2009", "2007", "2006",
+                                  "2003", "2001", "2000"),
+                         data_type = c("stud_dat", "stud_dat_9kl", "stud_dat_15j", "stud_par_dat",
+                                       "stud_par_dat_9kl", "stud_par_dat_15j", "stud_nat_dat", "stud_int_dat",
+                                       "teach_dat", "teach_stud_dat", "teach_dat_9kl", "teach_dat_15j",
+                                       "teach_ger_dat", "teach_math_dat", "teach_gen_dat", "teach_nat_dat",
+                                       "teach_int_dat", "teach_log_dat",
+                                       "school_dat", "school_dat_9kl", "school_dat_15j", "school_nat_dat",
+                                       "school_int_dat",
+                                       "par_dat", "par_dat_9kl", "par_dat_15j",
+                                       "it_dat", "matching", "testscores", "timing", "tracking",
+                                       "video_dat", "video_timss_dat", "video_subj_dat", "video_teach_dat",
+                                       "video_third_dat", "artefact")) {
   ## input validation
   study <- match.arg(study)
   year <- match.arg(year)

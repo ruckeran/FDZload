@@ -11,8 +11,8 @@
 #'@param data_type Type of the data.
 #'
 #'@examples
-#' fdz_pisa <- download_fdz(study = "PISA", year = "2015",
-#'                         data_type = "stud_quest")
+#' fdz_pisa <- download_fdz(study = "TIMSS", year = "2019",
+#'                         data_type = "stud_par_dat")
 #'@export
 download_fdz <- function(study = c("PISA", "TIMSS", "IGLU", "ICILS", "TVD"),
                          year = c("2019", "2018", "2016", "2015", "2013", "2012", "2011", "2009", "2007", "2006",

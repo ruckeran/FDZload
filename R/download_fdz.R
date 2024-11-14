@@ -100,6 +100,62 @@ download_fdz <- function(study = c("PISA"),
         school_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TIMSS_2019/TIMSS2019_HS_SLF.sav",
         tracking = "https://www.iqb.hu-berlin.de/fdz/studies/TIMSS_2019/TIMSS2019_HS_Tra.sav"
       )
+    ),
+    "IGLU" = list(
+      "2001" = list(
+        stud_par_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2001/IGLU2001_SC_Lee.sav",
+        teach_ger_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2001/IGLU2001_DE_Lee.sav",
+        teach_math_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2001/IGLU2001_MA_Lee.sav",
+        teach_gen_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2001/IGLU2001_SU_Lee.sav",
+        school_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2001/IGLU2001_SL_Lee.sav"
+      ),
+      "2006" = list(
+        stud_par_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU-2006/IGLU2006_SC_EL_.sav",
+        teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU-2006/IGLU2006_DE_Lee.sav",
+        school_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU-2006/IGLU2006_SL_Lee.sav",
+        testscores = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU-2006/IGLU2006_TS_Lee.sav"
+      ),
+      "2011" = list(
+        stud_par_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2011/IGLU2011_SEFB_le.sav",
+        teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2011/IGLU2011_LSFB_le.sav",
+        school_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2011/IGLU2011_SLFB_le.sav"
+      ),
+      "2016" = list(
+        stud_par_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2016/IGLU2016_SEFB_v1.sav",
+        teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2016/IGLU2016_LFB_v1_.sav",
+        teach_stud_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2016/IGLU2016_LSFB_v1.sav",
+        school_dat = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2016/IGLU2016_SLFB_v1.sav",
+        tracking = "https://www.iqb.hu-berlin.de/fdz/studies/IGLU_2016/IGLU2016_TR_v1_L.sav"
+      )
+    ),
+    "ICILS" = list(
+      "2013" = list(
+        stud_nat_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2013/ICILS2013_Schuel_1.sav",
+        stud_int_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2013/ICILS2013_Schuel.sav",
+        teach_nat_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2013/ICILS2013_Lehrer_1.sav",
+        teach_int_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2013/ICILS2013_Lehrer.sav",
+        school_nat_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2013/ICILS2013_Schull_1.sav",
+        school_int_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2013/ICILS2013_Schull.sav"
+      ),
+      "2018" = list(
+        stud_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2018/ICILS_2018_Schue.sav",
+        teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2018/ICILS_2018_Lehrk.sav",
+        school_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2018/ICILS_2018_Schul.sav",
+        it_dat = "https://www.iqb.hu-berlin.de/fdz/studies/ICILS_2018/ICILS_2018_ITFra.sav"
+      )
+    ),
+    "TVD" = list(
+#      "2018" = list(
+        stud_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_student_data.sav",
+        teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Teacher_v1_L.sav",
+        teach_log_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Teacher_Log_.sav",
+        video_timss_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_TIMSS_Video_.sav",
+        video_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_v1_Lee.sav",
+        video_subj_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_Aggreg.sav",
+        video_teach_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_Aggreg_1.sav",
+        video_third_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_Third_.sav",
+        artefact = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Artefact_v1_.sav"
+#      )
     )
   )
 

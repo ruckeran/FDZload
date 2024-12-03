@@ -1,8 +1,8 @@
 #' Download and import an empty FDZ file.
 #'
-#' Download and import an empty data set from the \href{https://www.iqb.hu-berlin.de/fdz/studies/}{FDZ homepage}.
+#' Download and import an empty PISA data set from the \href{https://www.iqb.hu-berlin.de/fdz/studies/}{FDZ homepage}.
 #'
-#' The function downloads and imports an empty data set (\code{Leerdatensatz}) from the FDZ homepage.
+#' The function downloads and imports an empty PISA data set (\code{Leerdatensatz}) from the FDZ homepage.
 #' These data sets contain zero rows.
 #' The data is imported via \code{\link[eatGADS]{import_spss}} as a \code{GADSdat} object.
 #'

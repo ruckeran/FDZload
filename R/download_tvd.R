@@ -10,7 +10,7 @@
 #'@param data_type Type of the data.
 #'
 #'@examples
-#' fdz_tvd <- download_tvd(data_type = "stud_par_dat_9kl")
+#' fdz_tvd <- download_tvd(data_type = "stud_dat")
 #'@export
 download_tvd <- function(data_type = c("stud_dat", "teach_dat", "teach_log_dat",
                                        "video_timss_dat", "video_dat", "video_subj_dat",
@@ -31,7 +31,7 @@ download_tvd <- function(data_type = c("stud_dat", "teach_dat", "teach_log_dat",
     video_third_dat = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Video_Third_.sav",
     artefact = "https://www.iqb.hu-berlin.de/fdz/studies/TVD/TVD_Artefact_v1_.sav"
   )
-)
+
 
   # call up URL for specific combination
   if (data_type %in% names(download_paths)) {

@@ -10,7 +10,7 @@
 #'@param data_type Type of the data.
 #'
 #'@examples
-#' fdz_pisa <- download_timss(year = "2019",
+#' fdz_timss <- download_timss(year = "2019",
 #'                         data_type = "stud_par_dat_9kl")
 #'@export
 download_timss <- function(year = c("2019", "2015", "2011", "2007"),

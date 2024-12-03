@@ -10,7 +10,7 @@
 #'@param data_type Type of the data.
 #'
 #'@examples
-#' fdz_pisa <- download_iglu(year = "2016",
+#' fdz_iglu <- download_iglu(year = "2016",
 #'                         data_type = "stud_par_dat")
 #'@export
 download_iglu <- function(year = c("2016", "2011", "2006", "2001"),

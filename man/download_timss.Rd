@@ -23,6 +23,6 @@ These data sets contain zero rows.
 The data is imported via \code{\link[eatGADS]{import_spss}} as a \code{GADSdat} object.
 }
 \examples{
-fdz_pisa <- download_timss(year = "2019",
-                        data_type = "stud_par_dat_9kl")
+fdz_timss <- download_timss(year = "2019",
+                        data_type = "stud_par_dat")
 }

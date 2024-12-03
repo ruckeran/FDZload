@@ -6,7 +6,6 @@
 #' These data sets contain zero rows.
 #' The data is imported via \code{\link[eatGADS]{import_spss}} as a \code{GADSdat} object.
 #'
-#'@param year Year of the assessment.
 #'@param data_type Type of the data.
 #'
 #'@examples

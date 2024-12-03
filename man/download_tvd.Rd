@@ -11,8 +11,6 @@ download_tvd(
 }
 \arguments{
 \item{data_type}{Type of the data.}
-
-\item{year}{Year of the assessment.}
 }
 \description{
 Download and import an empty TVD data set from the \href{https://www.iqb.hu-berlin.de/fdz/studies/}{FDZ homepage}.
@@ -23,5 +21,5 @@ These data sets contain zero rows.
 The data is imported via \code{\link[eatGADS]{import_spss}} as a \code{GADSdat} object.
 }
 \examples{
-fdz_tvd <- download_tvd(data_type = "stud_par_dat_9kl")
+fdz_tvd <- download_tvd(data_type = "stud_dat")
 }

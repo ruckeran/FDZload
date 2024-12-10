@@ -8,47 +8,29 @@
 [![R-CMD-check](https://github.com/ruckeran/FDZload/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ruckeran/FDZload/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of FDZload is to …
+## Overview
+
+With the help of `FDZload`, the national data sets of the large scale
+assessments, which can be applied for at the Research Data Center of the
+Institute for Educational Quality Improvement in Germany
+([FDZ](https://www.iqb.hu-berlin.de/fdz/)), can be compared with the
+international data sets, which can be downloaded directly from the
+respective project websites.
+
+`FDZload` builds on [`eatGADS`](https://github.com/beckerbenj/eatGADS).
 
 ## Installation
 
-You can install the development version of FDZload from
-[GitHub](https://github.com/) with:
-
 ``` r
-# install.packages("devtools")
-devtools::install_github("ruckeran/FDZload")
+# Install stable version from CRAN via
+install.packages("FDZload")
+
+# Install development version from GitHub via
+remotes::install_github("ruckeran/FDZload")
 ```
 
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(FDZload)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+The functionality of `FDZload` will be documented in a vignette in the
+future. If you have questions regarding existing functionality or
+requests for new features, contact the package author.
